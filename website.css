@@ -1,0 +1,31 @@
+.crbtn {
+    border: 1px solid black;
+    border-radius: .375rem;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.crudbtn {
+    padding: 5px;
+}
+
+#card-p {
+    padding: 10px 0px !important;
+}
+
+.delbtn {
+    border: 1px solid var(--black);
+    border-radius: 0.375rem;
+    display: inline-block;
+    padding: 6px 16px;
+    color: black;
+    background-color: var(--white);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.r2 {
+    padding-top: 50px;
+}

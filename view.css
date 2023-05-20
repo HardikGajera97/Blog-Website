@@ -1,0 +1,41 @@
+.view {
+    padding: 50px;
+    /* background-color: white; */
+}
+
+.page {
+    /* border: 1px solid black; */
+    border-radius: .375rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.con-blogs {
+    margin: auto;
+    border: 1px solid black;
+    border-radius: .375rem;
+    position: relative;
+    z-index: 2;
+
+}
+
+.p-heading {
+    font-size: 2.5em;
+}
+
+.fimg {
+    height: 75%;
+    width: 75%;
+    padding: 20px;
+
+}
+
+.para {
+    font-size: 22px;
+    margin: 30px 100px;
+}

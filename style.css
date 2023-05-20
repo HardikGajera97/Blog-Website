@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    list-style: none;
+}
+
+:root {
+    --prime: #0d6efd;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* this is navbar css  */
+
+.logo {
+    color: var(--white);
+}
+
+.logo:hover {
+    color: rgb(236, 236, 236);
+}
+
+#Nav {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    background: transparent !important;
+    background-color: black !important;
+    opacity: 0.75;
+    padding: 10px 0px;
+}
+
+nav li a {
+    color: var(--white) !important;
+}
+
+.search {
+    margin: 1rem;
+    color: var(--white);
+}
+
+.bcolor {
+    background-color: #ffffff;
+    color: black;
+    border: solid black 1px;
+}
+
+/* this is homepage css */
+
+#Home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote {
+    color: var(--white);
+    text-align: center;
+    padding: 0px 200px;
+    margin-top: 100px;
+}
+
+.btnex {
+    border: 1px solid var(--black);
+    border-radius: 0.375rem;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: var(--white);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* this is a blog css */
+
+.blog {
+    padding: 50px 30px;
+    margin: 30px auto;
+}
+
+.blog>h2 {
+    margin-bottom: 25px;
+}
+
+.img {
+    height: 310px;
+}
+
+.r2 {
+    padding-top: 50px;
+}
+
+*/ .r1>div {
+    border-radius: .375rem;
+    padding: 10px;
+
+}
+
+.r2>div {
+    border-radius: .375rem;
+    padding: 10px;
+
+}
+
+/* This is about us page css */
+
+.about {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 35px 40px;
+
+}
+
+.about>h2 {
+    margin-bottom: 25px;
+}
+
+/* this is a contact us css */
+
+#Contact {
+    background-color: var(--black);
+    margin: 50px 0px;
+    opacity: .85;
+
+}
+
+.contact {
+    width: 60%;
+}
+
+.formcs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formcs>input {
+    border-radius: .375rem;
+    padding: 10px;
+}
+
+.formcs>textarea {
+    border-radius: .375rem;
+    padding: 10px;
+}
+
+.formcs>label {
+    margin: 5px;
+    color: var(--white);
+}
+
+.con {
+    margin: auto;
+    margin-top: 15px;
+    color: var(--white);
+}
+
+.btnsb {
+    background-color: var(--white);
+    border: 1px solid grey;
+    border-radius: .375rem;
+    padding: 8px;
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
